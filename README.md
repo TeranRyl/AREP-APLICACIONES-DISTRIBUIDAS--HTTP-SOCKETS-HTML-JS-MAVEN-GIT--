@@ -11,7 +11,19 @@ A continuacion, dejo respectivas instrucciones para correr el proyecto adecuadam
 Para descargar la aplicacion, ya estando aqui, se necesita un equipo de computo con las siguientes caracteristicas:
 
 ```
-Give examples
+- Java instalado
+
+- Maven instalado
+
+- JavaScript instalado
+
+- Conexion a internet
+
+- Explorador web
+
+- (OPCIONAL) Personal API key Omdbapi
+
+- (RECOMENDACION) Tener todo actualizado
 ```
 
 ### Installing
