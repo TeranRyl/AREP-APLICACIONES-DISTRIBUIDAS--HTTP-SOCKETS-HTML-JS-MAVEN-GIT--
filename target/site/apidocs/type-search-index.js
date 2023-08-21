@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edu.escuelaing.app","l":"App"},{"p":"edu.escuelaing.app","l":"HttpClientConcurrent"}];updateSearchResults();
