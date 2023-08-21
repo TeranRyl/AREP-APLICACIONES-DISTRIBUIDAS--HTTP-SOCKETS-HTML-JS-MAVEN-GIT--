@@ -1,14 +1,14 @@
-# Project Title
+# APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
 
-One Paragraph of project description goes here
+Una aplicacion para consultar los datos de la pelicula de cine deseada. La busqueda se hace por titulo, utilizando el API "omdbapi.com" e implementando cache.
 
-## Getting Started
+## Instrucciones para ejecutar
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+A continuacion, dejo respectivas instrucciones para correr el proyecto adecuadamente tras obtener la direccion a este repositorio GitHub. Igualmente, mas abajo dejare evidencia grafica para garantizar que se entienda su implementacion. La aplicacion debe usarse para fines de prueba y desarrollo.
 
-### Prerequisites
+### Requisitos previos
 
-What things you need to install the software and how to install them
+Para descargar la aplicacion, ya estando aqui, se necesita un equipo de computo con las siguientes caracteristicas:
 
 ```
 Give examples
