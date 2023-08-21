@@ -4,7 +4,7 @@ Una aplicacion para consultar los datos de la pelicula de cine deseada. La busqu
 
 ## Instrucciones para ejecutar
 
-A continuacion, dejo respectivas instrucciones para correr el proyecto adecuadamente tras obtener la direccion a este repositorio GitHub. Igualmente, mas abajo dejare evidencia grafica para garantizar que se entienda su implementacion. La aplicacion debe usarse para fines de prueba y desarrollo.
+A continuacion, dejo respectivas instrucciones para correr el proyecto adecuadamente tras obtener la direccion a este repositorio GitHub. Igualmente, mas abajo dejare evidencia detallada para garantizar que se entienda su implementacion. La aplicacion debe usarse para fines de prueba y desarrollo.
 
 ### Requisitos previos
 
@@ -25,28 +25,47 @@ Para descargar la aplicacion, ya estando aqui, se necesita un equipo de computo 
 
 - (RECOMENDACION) Tener todo actualizado
 ```
+Esta guia no incluye tutoria para la descarga e instalacion de los anteriores mencionados. Si no cuenta con algo, o no sabe, le recomiendo ver algun video en Youtube.
 
-### Installing
+### Instalando
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Paso a paso
 
 ```
-until finished
+1. Descargar el codigo: Bajar el .ZIP correspondiente al repositorio.
+
+2. Extraer el contenido del archivo comprimido.
+
+3. Abrir el Shell de su preferencia.
+
+4. Desde el Shell, muevase a la ubicacion donde extrajo el archivo .ZIP (Deberia estar dentro de la carpeta llamada  "ARQUITECTURAS-EMPRESARIALES-TALLER-1-master").
+
+5. Desde el Shell, escriba "mvn package" (este comando compila, construye y empaqueta el proyecto en un .JAR).
+
+6. Desde el Shell, escriba "java -cp target/Taller1-1.0-SNAPSHOT.jar edu.escuelaing.app.App" para ejecutar la aplicacion.
+   Deberia ver un mensaje diciendo "Listo para recibir... ".
+
+7. Abra su explorador web de preferencia y busque en una pestaña incognita lo siguiente: "localhost:35001" (SIN LAS COMILLAS).
+
+8. Entonces, tendra acceso a un software que le permite consultar toda la informacion de peliculas relacionada al cine.
+
+9. Para hacerlo, debe buscar la pelicula que le interesa por su titulo original, el cual muy seguramente este escrito en ingles, y posteriormente debe pulsar sobre el
+   boton "Submit" para enviar la solicitud al API de la pelicula que busca.
+   En pantalla podra ver toda la informacion que el API pudo proveer sobre su eleccion.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Puede hacer cuantas consultas quiera. Para cerrar el servicio puede introducir en el campo de texto cualquier cadena que inicie con un espacio en blanco, por ejemplo " _", y el servidor se apagara enseguida. 
 
-## Running the tests
+```
+Una vez haya terminado, puede cerrar el servicio introduciendo en el campo de texto " _" y el servidor se apagara enseguida.
 
-Explain how to run the automated tests for this system
+```
+
+¡¡"Oppenheimer" salio apenas hace unas semanas a las salas de cine, pero la API ya puede obtener todos sus datos!!
+
+## Ejecucion de las pruebas
+
+La aplicacion cuenta con pruebas automaiza
 
 ### Break down into end to end tests
 
