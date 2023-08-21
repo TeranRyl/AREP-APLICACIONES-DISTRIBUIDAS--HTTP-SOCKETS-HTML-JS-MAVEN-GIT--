@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.escuelaing.app.HttpClientConcurrentTest" time="0.044" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="20"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Personal\IdeaProjects\Taller1\target\test-classes;C:\Users\Personal\IdeaProjects\Taller1\target\classes;C:\Users\Personal\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Personal\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Personal\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Personal\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Personal\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Personal\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Personal\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Personal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="user.country.format" value="MX"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="sun.java.command" value="C:\Users\Personal\AppData\Local\Temp\surefire7664740739637676551\surefirebooter-20230821183954776_3.jar C:\Users\Personal\AppData\Local\Temp\surefire7664740739637676551 2023-08-21T18-39-54_571-jvmRun1 surefire-20230821183954776_1tmp surefire_0-20230821183954776_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Personal\IdeaProjects\Taller1\target\test-classes;C:\Users\Personal\IdeaProjects\Taller1\target\classes;C:\Users\Personal\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Personal\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Personal\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Personal\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Personal\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Personal\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Personal\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Personal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Personal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Personal\IdeaProjects\Taller1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Personal\AppData\Local\Temp\surefire7664740739637676551\surefirebooter-20230821183954776_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="20.0.1+9-29"/>
+    <property name="user.name" value="Personal"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Personal\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Personal\AppData\Local\Temp\"/>
+    <property name="java.version" value="20.0.1"/>
+    <property name="user.dir" value="C:\Users\Personal\IdeaProjects\Taller1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="es"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;F:\Program Files\PuTTY\;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\apache-maven-3.9.4-bin\apache-maven-3.9.4\bin;C:\Users\Personal\AppData\Local\Microsoft\WindowsApps;;C:\Users\Personal\AppData\Local\Programs\Microsoft VS Code\bin;F:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.3\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="20.0.1+9-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="64.0"/>
+  </properties>
+  <testcase name="main" classname="edu.escuelaing.app.HttpClientConcurrentTest" time="0.042">
+    <system-out><![CDATA[Title: Harry Potter and the Chamber of Secrets
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Harry Potter and the Chamber of Secrets","Year":"2002","Rated":"PG","Released":"15 Nov 2002","Runtime":"161 min","Genre":"Adventure, Family, Fantasy","Director":"Chris Columbus","Writer":"J.K. Rowling, Steve Kloves","Actors":"Daniel Radcliffe, Rupert Grint, Emma Watson","Plot":"An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.","Language":"English, Latin","Country":"United Kingdom, United States","Awards":"Won 1 BAFTA Award13 wins & 46 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"63/100"}],"Metascore":"63","imdbRating":"7.4","imdbVotes":"663,189","imdbID":"tt0295297","Type":"movie","DVD":"15 Jan 2008","BoxOffice":"$262,641,637","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Harry Potter and the Chamber of Secrets
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Harry Potter and the Chamber of Secrets","Year":"2002","Rated":"PG","Released":"15 Nov 2002","Runtime":"161 min","Genre":"Adventure, Family, Fantasy","Director":"Chris Columbus","Writer":"J.K. Rowling, Steve Kloves","Actors":"Daniel Radcliffe, Rupert Grint, Emma Watson","Plot":"An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.","Language":"English, Latin","Country":"United Kingdom, United States","Awards":"Won 1 BAFTA Award13 wins & 46 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"63/100"}],"Metascore":"63","imdbRating":"7.4","imdbVotes":"663,189","imdbID":"tt0295297","Type":"movie","DVD":"15 Jan 2008","BoxOffice":"$262,641,637","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Harry Potter and the Chamber of Secrets
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Harry Potter and the Chamber of Secrets","Year":"2002","Rated":"PG","Released":"15 Nov 2002","Runtime":"161 min","Genre":"Adventure, Family, Fantasy","Director":"Chris Columbus","Writer":"J.K. Rowling, Steve Kloves","Actors":"Daniel Radcliffe, Rupert Grint, Emma Watson","Plot":"An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.","Language":"English, Latin","Country":"United Kingdom, United States","Awards":"Won 1 BAFTA Award13 wins & 46 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"63/100"}],"Metascore":"63","imdbRating":"7.4","imdbVotes":"663,189","imdbID":"tt0295297","Type":"movie","DVD":"15 Jan 2008","BoxOffice":"$262,641,637","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Harry Potter and the Chamber of Secrets
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Harry Potter and the Chamber of Secrets","Year":"2002","Rated":"PG","Released":"15 Nov 2002","Runtime":"161 min","Genre":"Adventure, Family, Fantasy","Director":"Chris Columbus","Writer":"J.K. Rowling, Steve Kloves","Actors":"Daniel Radcliffe, Rupert Grint, Emma Watson","Plot":"An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.","Language":"English, Latin","Country":"United Kingdom, United States","Awards":"Won 1 BAFTA Award13 wins & 46 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"63/100"}],"Metascore":"63","imdbRating":"7.4","imdbVotes":"663,189","imdbID":"tt0295297","Type":"movie","DVD":"15 Jan 2008","BoxOffice":"$262,641,637","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Freddy vs. Jason
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Freddy vs. Jason","Year":"2003","Rated":"R","Released":"15 Aug 2003","Runtime":"97 min","Genre":"Action, Horror","Director":"Ronny Yu","Writer":"Wes Craven, Victor Miller, Damian Shannon","Actors":"Robert Englund, Ken Kirzinger, Kelly Rowland","Plot":"Freddy Krueger and Jason Voorhees return to terrorize the teenagers of Elm Street. Only this time, they're out to get each other, too.","Language":"English","Country":"Canada, United States","Awards":"2 wins & 11 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BODNlNWVjOTMtZjVjYy00MzRjLTg2MmQtNTM3MWVmZjFjYzgwXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.7/10"},{"Source":"Rotten Tomatoes","Value":"41%"},{"Source":"Metacritic","Value":"37/100"}],"Metascore":"37","imdbRating":"5.7","imdbVotes":"123,528","imdbID":"tt0329101","Type":"movie","DVD":"01 Dec 2012","BoxOffice":"$82,633,448","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Barbie
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Barbie","Year":"2023","Rated":"PG-13","Released":"21 Jul 2023","Runtime":"114 min","Genre":"Adventure, Comedy, Fantasy","Director":"Greta Gerwig","Writer":"Greta Gerwig, Noah Baumbach","Actors":"Margot Robbie, Ryan Gosling, Issa Rae","Plot":"Barbie suffers a crisis that leads her to question her world and her existence.","Language":"English, Spanish","Country":"United States, United Kingdom","Awards":"2 wins & 1 nomination","Poster":"https://m.media-amazon.com/images/M/MV5BOWIwZGY0OTYtZjUzYy00NzRmLTg5YzgtYWMzNWQ0MmZiY2MwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"80/100"}],"Metascore":"80","imdbRating":"7.4","imdbVotes":"238,040","imdbID":"tt1517268","Type":"movie","DVD":"N/A","BoxOffice":"$541,907,382","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: John Wick: Chapter 4
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"John Wick: Chapter 4","Year":"2023","Rated":"R","Released":"24 Mar 2023","Runtime":"169 min","Genre":"Action, Crime, Thriller","Director":"Chad Stahelski","Writer":"Shay Hatten, Michael Finch, Derek Kolstad","Actors":"Keanu Reeves, Laurence Fishburne, George Georgiou","Plot":"John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.","Language":"English, French, Japanese, Russian, Spanish, Cantonese, German, Latin","Country":"Germany, United States","Awards":"1 win & 3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"94%"},{"Source":"Metacritic","Value":"78/100"}],"Metascore":"78","imdbRating":"7.8","imdbVotes":"262,144","imdbID":"tt10366206","Type":"movie","DVD":"23 May 2023","BoxOffice":"$187,131,806","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Halloween II
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Halloween II","Year":"1981","Rated":"R","Released":"30 Oct 1981","Runtime":"92 min","Genre":"Horror","Director":"Rick Rosenthal","Writer":"John Carpenter, Debra Hill","Actors":"Jamie Lee Curtis, Donald Pleasence, Charles Cyphers","Plot":"While Dr. Loomis hunts for Michael Myers, a traumatized Laurie is rushed to Haddonfield Memorial Hospital, and The Shape is not far behind her.","Language":"English","Country":"United States","Awards":"1 win & 3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMjZmYjg0ODctOTIyYy00YzhkLTgyMzEtNjUyY2JiZjVmYzI2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.5/10"},{"Source":"Rotten Tomatoes","Value":"33%"},{"Source":"Metacritic","Value":"40/100"}],"Metascore":"40","imdbRating":"6.5","imdbVotes":"96,871","imdbID":"tt0082495","Type":"movie","DVD":"19 Oct 2015","BoxOffice":"$25,533,818","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: The Chronicles of Narnia: Prince Caspian
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"The Chronicles of Narnia: Prince Caspian","Year":"2008","Rated":"PG","Released":"16 May 2008","Runtime":"150 min","Genre":"Action, Adventure, Family","Director":"Andrew Adamson","Writer":"Andrew Adamson, Christopher Markus, Stephen McFeely","Actors":"Ben Barnes, Skandar Keynes, Georgie Henley","Plot":"The Pevensie siblings return to Narnia, where they are enlisted to once again help ward off an evil king and restore the rightful heir to the land's throne, Prince Caspian.","Language":"English","Country":"United States, Poland, Slovenia, Czech Republic, United Kingdom","Awards":"4 wins & 21 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BM2Q3NWExNjYtM2MwMC00NmM0LTgzZDctMzcxNjE4ZTk5ODA3XkEyXkFqcGdeQXVyNTE1NjY5Mg@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.5/10"},{"Source":"Rotten Tomatoes","Value":"66%"},{"Source":"Metacritic","Value":"62/100"}],"Metascore":"62","imdbRating":"6.5","imdbVotes":"218,390","imdbID":"tt0499448","Type":"movie","DVD":"01 Jan 2014","BoxOffice":"$141,621,490","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Fast & Furious 6
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Fast & Furious 6","Year":"2013","Rated":"PG-13","Released":"24 May 2013","Runtime":"130 min","Genre":"Action, Adventure, Crime","Director":"Justin Lin","Writer":"Chris Morgan, Gary Scott Thompson","Actors":"Vin Diesel, Paul Walker, Dwayne Johnson","Plot":"Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty.","Language":"English, Spanish, Russian, Japanese, Cantonese, Dutch, Danish, Ukrainian","Country":"United States, Japan, Spain, United Kingdom","Awards":"11 wins & 22 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.0/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"61/100"}],"Metascore":"61","imdbRating":"7.0","imdbVotes":"407,595","imdbID":"tt1905041","Type":"movie","DVD":"06 Jan 2015","BoxOffice":"$238,679,850","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Fast & Furious 6
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Fast & Furious 6","Year":"2013","Rated":"PG-13","Released":"24 May 2013","Runtime":"130 min","Genre":"Action, Adventure, Crime","Director":"Justin Lin","Writer":"Chris Morgan, Gary Scott Thompson","Actors":"Vin Diesel, Paul Walker, Dwayne Johnson","Plot":"Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty.","Language":"English, Spanish, Russian, Japanese, Cantonese, Dutch, Danish, Ukrainian","Country":"United States, Japan, Spain, United Kingdom","Awards":"11 wins & 22 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.0/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"61/100"}],"Metascore":"61","imdbRating":"7.0","imdbVotes":"407,595","imdbID":"tt1905041","Type":"movie","DVD":"06 Jan 2015","BoxOffice":"$238,679,850","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Freddy vs. Jason
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Freddy vs. Jason","Year":"2003","Rated":"R","Released":"15 Aug 2003","Runtime":"97 min","Genre":"Action, Horror","Director":"Ronny Yu","Writer":"Wes Craven, Victor Miller, Damian Shannon","Actors":"Robert Englund, Ken Kirzinger, Kelly Rowland","Plot":"Freddy Krueger and Jason Voorhees return to terrorize the teenagers of Elm Street. Only this time, they're out to get each other, too.","Language":"English","Country":"Canada, United States","Awards":"2 wins & 11 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BODNlNWVjOTMtZjVjYy00MzRjLTg2MmQtNTM3MWVmZjFjYzgwXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.7/10"},{"Source":"Rotten Tomatoes","Value":"41%"},{"Source":"Metacritic","Value":"37/100"}],"Metascore":"37","imdbRating":"5.7","imdbVotes":"123,528","imdbID":"tt0329101","Type":"movie","DVD":"01 Dec 2012","BoxOffice":"$82,633,448","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Harry Potter and the Chamber of Secrets
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Harry Potter and the Chamber of Secrets","Year":"2002","Rated":"PG","Released":"15 Nov 2002","Runtime":"161 min","Genre":"Adventure, Family, Fantasy","Director":"Chris Columbus","Writer":"J.K. Rowling, Steve Kloves","Actors":"Daniel Radcliffe, Rupert Grint, Emma Watson","Plot":"An ancient prophecy seems to be coming true when a mysterious presence begins stalking the corridors of a school of magic and leaving its victims paralyzed.","Language":"English, Latin","Country":"United Kingdom, United States","Awards":"Won 1 BAFTA Award13 wins & 46 nominations total","Poster":"https://m.media-amazon.com/images/M/MV5BMjE0YjUzNDUtMjc5OS00MTU3LTgxMmUtODhkOThkMzdjNWI4XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.4/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"63/100"}],"Metascore":"63","imdbRating":"7.4","imdbVotes":"663,189","imdbID":"tt0295297","Type":"movie","DVD":"15 Jan 2008","BoxOffice":"$262,641,637","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Freddy vs. Jason
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Freddy vs. Jason","Year":"2003","Rated":"R","Released":"15 Aug 2003","Runtime":"97 min","Genre":"Action, Horror","Director":"Ronny Yu","Writer":"Wes Craven, Victor Miller, Damian Shannon","Actors":"Robert Englund, Ken Kirzinger, Kelly Rowland","Plot":"Freddy Krueger and Jason Voorhees return to terrorize the teenagers of Elm Street. Only this time, they're out to get each other, too.","Language":"English","Country":"Canada, United States","Awards":"2 wins & 11 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BODNlNWVjOTMtZjVjYy00MzRjLTg2MmQtNTM3MWVmZjFjYzgwXkEyXkFqcGdeQXVyMzM4MjM0Nzg@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.7/10"},{"Source":"Rotten Tomatoes","Value":"41%"},{"Source":"Metacritic","Value":"37/100"}],"Metascore":"37","imdbRating":"5.7","imdbVotes":"123,528","imdbID":"tt0329101","Type":"movie","DVD":"01 Dec 2012","BoxOffice":"$82,633,448","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Halloween II
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Halloween II","Year":"1981","Rated":"R","Released":"30 Oct 1981","Runtime":"92 min","Genre":"Horror","Director":"Rick Rosenthal","Writer":"John Carpenter, Debra Hill","Actors":"Jamie Lee Curtis, Donald Pleasence, Charles Cyphers","Plot":"While Dr. Loomis hunts for Michael Myers, a traumatized Laurie is rushed to Haddonfield Memorial Hospital, and The Shape is not far behind her.","Language":"English","Country":"United States","Awards":"1 win & 3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMjZmYjg0ODctOTIyYy00YzhkLTgyMzEtNjUyY2JiZjVmYzI2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.5/10"},{"Source":"Rotten Tomatoes","Value":"33%"},{"Source":"Metacritic","Value":"40/100"}],"Metascore":"40","imdbRating":"6.5","imdbVotes":"96,871","imdbID":"tt0082495","Type":"movie","DVD":"19 Oct 2015","BoxOffice":"$25,533,818","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Saw IV
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Saw IV","Year":"2007","Rated":"R","Released":"26 Oct 2007","Runtime":"93 min","Genre":"Horror, Mystery, Thriller","Director":"Darren Lynn Bousman","Writer":"Patrick Melton, Marcus Dunstan, Thomas Fenton","Actors":"Tobin Bell, Scott Patterson, Louis Ferreira","Plot":"Despite Jigsaw's death, and in order to save the lives of two of his colleagues, Lieutenant Rigg is forced to take part in a new game, which promises to test him to the limit.","Language":"English","Country":"Canada, United States","Awards":"2 wins & 7 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.9/10"},{"Source":"Rotten Tomatoes","Value":"18%"},{"Source":"Metacritic","Value":"36/100"}],"Metascore":"36","imdbRating":"5.9","imdbVotes":"156,116","imdbID":"tt0890870","Type":"movie","DVD":"22 Jan 2008","BoxOffice":"$63,300,095","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: John Wick: Chapter 4
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"John Wick: Chapter 4","Year":"2023","Rated":"R","Released":"24 Mar 2023","Runtime":"169 min","Genre":"Action, Crime, Thriller","Director":"Chad Stahelski","Writer":"Shay Hatten, Michael Finch, Derek Kolstad","Actors":"Keanu Reeves, Laurence Fishburne, George Georgiou","Plot":"John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.","Language":"English, French, Japanese, Russian, Spanish, Cantonese, German, Latin","Country":"Germany, United States","Awards":"1 win & 3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"94%"},{"Source":"Metacritic","Value":"78/100"}],"Metascore":"78","imdbRating":"7.8","imdbVotes":"262,144","imdbID":"tt10366206","Type":"movie","DVD":"23 May 2023","BoxOffice":"$187,131,806","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: John Wick: Chapter 4
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"John Wick: Chapter 4","Year":"2023","Rated":"R","Released":"24 Mar 2023","Runtime":"169 min","Genre":"Action, Crime, Thriller","Director":"Chad Stahelski","Writer":"Shay Hatten, Michael Finch, Derek Kolstad","Actors":"Keanu Reeves, Laurence Fishburne, George Georgiou","Plot":"John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.","Language":"English, French, Japanese, Russian, Spanish, Cantonese, German, Latin","Country":"Germany, United States","Awards":"1 win & 3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"94%"},{"Source":"Metacritic","Value":"78/100"}],"Metascore":"78","imdbRating":"7.8","imdbVotes":"262,144","imdbID":"tt10366206","Type":"movie","DVD":"23 May 2023","BoxOffice":"$187,131,806","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Fast & Furious 6
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Fast & Furious 6","Year":"2013","Rated":"PG-13","Released":"24 May 2013","Runtime":"130 min","Genre":"Action, Adventure, Crime","Director":"Justin Lin","Writer":"Chris Morgan, Gary Scott Thompson","Actors":"Vin Diesel, Paul Walker, Dwayne Johnson","Plot":"Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty.","Language":"English, Spanish, Russian, Japanese, Cantonese, Dutch, Danish, Ukrainian","Country":"United States, Japan, Spain, United Kingdom","Awards":"11 wins & 22 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.0/10"},{"Source":"Rotten Tomatoes","Value":"71%"},{"Source":"Metacritic","Value":"61/100"}],"Metascore":"61","imdbRating":"7.0","imdbVotes":"407,595","imdbID":"tt1905041","Type":"movie","DVD":"06 Jan 2015","BoxOffice":"$238,679,850","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+Title: Saw IV
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Saw IV","Year":"2007","Rated":"R","Released":"26 Oct 2007","Runtime":"93 min","Genre":"Horror, Mystery, Thriller","Director":"Darren Lynn Bousman","Writer":"Patrick Melton, Marcus Dunstan, Thomas Fenton","Actors":"Tobin Bell, Scott Patterson, Louis Ferreira","Plot":"Despite Jigsaw's death, and in order to save the lives of two of his colleagues, Lieutenant Rigg is forced to take part in a new game, which promises to test him to the limit.","Language":"English","Country":"Canada, United States","Awards":"2 wins & 7 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BNjc0NjUyNzg3MF5BMl5BanBnXkFtZTYwODMxOTM3._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"5.9/10"},{"Source":"Rotten Tomatoes","Value":"18%"},{"Source":"Metacritic","Value":"36/100"}],"Metascore":"36","imdbRating":"5.9","imdbVotes":"156,116","imdbID":"tt0890870","Type":"movie","DVD":"22 Jan 2008","BoxOffice":"$63,300,095","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
+
+
+]]></system-out>
+  </testcase>
+</testsuite>

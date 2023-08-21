@@ -111,7 +111,6 @@ public class App {
      * @throws IOException if an error occurs while making the HTTP connection
      */
     public static String getTitle(String url) throws IOException {
-        System.out.println("URLL: "+ url);
         String response = "HTTP/1.1 200 OK\r\n"
                 + "Content-Type: application/json\r\n"
                 + "\r\n"

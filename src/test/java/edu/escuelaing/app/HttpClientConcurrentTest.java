@@ -1,5 +1,7 @@
 package edu.escuelaing.app;
 
+import org.junit.jupiter.api.Test;
+
 import java.io.*;
 import java.net.*;
 import java.util.Random;
@@ -16,14 +18,15 @@ import java.util.concurrent.ConcurrentHashMap;
 
 // TALLER 1
 
-public class HttpClientConcurrent {
+public class HttpClientConcurrentTest {
     private static final ConcurrentHashMap<String, String> moviesTest = new ConcurrentHashMap<>();
 
     /**
      * Server concurrency tests
      * @throws IOException if an error occurs while making the HTTP connection
      */
-    public static void main(String[] args) throws IOException {
+    @Test
+    public void main() throws IOException {
         moviesTest.put("Barbie", "{\"Title\":\"Barbie\",\"Year\":\"2023\",\"Rated\":\"PG-13\",\"Released\":\"21 Jul 2023\",\"Runtime\":\"114 min\",\"Genre\":\"Adventure, Comedy, Fantasy\",\"Director\":\"Greta Gerwig\",\"Writer\":\"Greta Gerwig, Noah Baumbach\",\"Actors\":\"Margot Robbie, Ryan Gosling, Issa Rae\",\"Plot\":\"Barbie suffers a crisis that leads her to question her world and her existence.\",\"Language\":\"English, Spanish\",\"Country\":\"United States, United Kingdom\",\"Awards\":\"2 wins & 1 nomination\",\"Poster\":\"https://m.media-amazon.com/images/M/MV5BOWIwZGY0OTYtZjUzYy00NzRmLTg5YzgtYWMzNWQ0MmZiY2MwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg\",\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"7.4/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"88%\"},{\"Source\":\"Metacritic\",\"Value\":\"80/100\"}],\"Metascore\":\"80\",\"imdbRating\":\"7.4\",\"imdbVotes\":\"238,040\",\"imdbID\":\"tt1517268\",\"Type\":\"movie\",\"DVD\":\"N/A\",\"BoxOffice\":\"$541,907,382\",\"Production\":\"N/A\",\"Website\":\"N/A\",\"Response\":\"True\"}");
         moviesTest.put("John Wick", "{\"Title\":\"John Wick\",\"Year\":\"2014\",\"Rated\":\"R\",\"Released\":\"24 Oct 2014\",\"Runtime\":\"101 min\",\"Genre\":\"Action, Crime, Thriller\",\"Director\":\"Chad Stahelski, David Leitch\",\"Writer\":\"Derek Kolstad\",\"Actors\":\"Keanu Reeves, Michael Nyqvist, Alfie Allen\",\"Plot\":\"An ex-hitman comes out of retirement to track down the gangsters who killed his dog and stole his car.\",\"Language\":\"English, Russian, Hungarian\",\"Country\":\"United States, United Kingdom, China\",\"Awards\":\"5 wins & 10 nominations\",\"Poster\":\"https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg\",\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"7.4/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"86%\"},{\"Source\":\"Metacritic\",\"Value\":\"68/100\"}],\"Metascore\":\"68\",\"imdbRating\":\"7.4\",\"imdbVotes\":\"707,438\",\"imdbID\":\"tt2911666\",\"Type\":\"movie\",\"DVD\":\"07 Jun 2016\",\"BoxOffice\":\"$43,037,835\",\"Production\":\"N/A\",\"Website\":\"N/A\",\"Response\":\"True\"}");
         moviesTest.put("John Wick: Chapter 4", "{\"Title\":\"John Wick: Chapter 4\",\"Year\":\"2023\",\"Rated\":\"R\",\"Released\":\"24 Mar 2023\",\"Runtime\":\"169 min\",\"Genre\":\"Action, Crime, Thriller\",\"Director\":\"Chad Stahelski\",\"Writer\":\"Shay Hatten, Michael Finch, Derek Kolstad\",\"Actors\":\"Keanu Reeves, Laurence Fishburne, George Georgiou\",\"Plot\":\"John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.\",\"Language\":\"English, French, Japanese, Russian, Spanish, Cantonese, German, Latin\",\"Country\":\"Germany, United States\",\"Awards\":\"1 win & 3 nominations\",\"Poster\":\"https://m.media-amazon.com/images/M/MV5BMDExZGMyOTMtMDgyYi00NGIwLWJhMTEtOTdkZGFjNmZiMTEwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_SX300.jpg\",\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"7.8/10\"},{\"Source\":\"Rotten Tomatoes\",\"Value\":\"94%\"},{\"Source\":\"Metacritic\",\"Value\":\"78/100\"}],\"Metascore\":\"78\",\"imdbRating\":\"7.8\",\"imdbVotes\":\"262,144\",\"imdbID\":\"tt10366206\",\"Type\":\"movie\",\"DVD\":\"23 May 2023\",\"BoxOffice\":\"$187,131,806\",\"Production\":\"N/A\",\"Website\":\"N/A\",\"Response\":\"True\"}");
@@ -76,7 +79,7 @@ public class HttpClientConcurrent {
             System.out.println("Concurrent Test: " + actualOutput.equals(expectedOutput) + "\n\n");
         }
 
-        manualSearch();
+        //manualSearch();
 
 
     }
