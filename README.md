@@ -111,8 +111,6 @@ Una forma adicional de ejecutar el programa, permitiendo realizar busquedas manu
 
 * **Juan Francisco Teran** - *Trabajo total* - [TeranRyl](https://github.com/TeranRyl)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## Licencia
 
 Este proyecto tiene la licencia GNU General Public License v3.0; consulte el archivo [LICENSE.txt](LICENSE.txt) para obtener más información.
