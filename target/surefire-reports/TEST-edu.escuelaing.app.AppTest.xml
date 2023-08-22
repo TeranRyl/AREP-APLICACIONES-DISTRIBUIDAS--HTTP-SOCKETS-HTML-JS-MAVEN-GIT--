@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.escuelaing.app.AppTest" time="1.113" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.escuelaing.app.AppTest" time="1.753" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\Personal\AppData\Local\Temp\surefire7664740739637676551\surefirebooter-20230821183954776_3.jar C:\Users\Personal\AppData\Local\Temp\surefire7664740739637676551 2023-08-21T18-39-54_571-jvmRun1 surefire-20230821183954776_1tmp surefire_0-20230821183954776_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Personal\AppData\Local\Temp\surefire13178310349940785826\surefirebooter-20230821192809066_3.jar C:\Users\Personal\AppData\Local\Temp\surefire13178310349940785826 2023-08-21T19-28-08_862-jvmRun1 surefire-20230821192809066_1tmp surefire_0-20230821192809066_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Personal\IdeaProjects\Taller1\target\test-classes;C:\Users\Personal\IdeaProjects\Taller1\target\classes;C:\Users\Personal\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\Personal\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Personal\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Personal\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\Personal\.m2\repository\junit\junit\3.8.2\junit-3.8.2.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Personal\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Personal\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Personal\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Personal\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Personal\AppData\Local\Temp\surefire7664740739637676551\surefirebooter-20230821183954776_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Personal\AppData\Local\Temp\surefire13178310349940785826\surefirebooter-20230821192809066_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.1+9-29"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testgetTitle" classname="edu.escuelaing.app.AppTest" time="0.654">
+  <testcase name="testgetTitle" classname="edu.escuelaing.app.AppTest" time="0.715">
     <system-out><![CDATA[GET Response Code :: 200
 {"Title":"Hola","Year":"2005","Rated":"N/A","Released":"01 Mar 2005","Runtime":"61 min","Genre":"N/A","Director":"Ana Ynsaurralde","Writer":"Ana Ynsaurralde","Actors":"Raquel Adoler, Julieta Buschiazzo, Gabriel Coba","Plot":"N/A","Language":"Spanish","Country":"Argentina","Awards":"N/A","Poster":"N/A","Ratings":[{"Source":"Internet Movie Database","Value":"5.2/10"}],"Metascore":"N/A","imdbRating":"5.2","imdbVotes":"5","imdbID":"tt0451761","Type":"movie","DVD":"N/A","BoxOffice":"N/A","Production":"N/A","Website":"N/A","Response":"True"}
 GET DONE
@@ -78,7 +78,7 @@ GET Response Code :: 200
 GET DONE
 ]]></system-out>
   </testcase>
-  <testcase name="testhttpConnection" classname="edu.escuelaing.app.AppTest" time="0.408">
+  <testcase name="testhttpConnection" classname="edu.escuelaing.app.AppTest" time="0.982">
     <system-out><![CDATA[GET Response Code :: 200
 {"Title":"Saw III","Year":"2006","Rated":"R","Released":"27 Oct 2006","Runtime":"108 min","Genre":"Horror, Mystery, Thriller","Director":"Darren Lynn Bousman","Writer":"Leigh Whannell, James Wan","Actors":"Tobin Bell, Shawnee Smith, Angus Macfadyen","Plot":"Jigsaw abducts a doctor in order to keep himself alive while he watches his new apprentice put an unlucky citizen named Jeff through a brutal test.","Language":"English","Country":"Canada, United States","Awards":"1 win & 9 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BNWVjMzgwMTctZmZjNC00ZmE0LThiNTUtYzkyM2RkYWIzY2Y2XkEyXkFqcGdeQXVyNjEyNDAyMzI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.2/10"},{"Source":"Rotten Tomatoes","Value":"30%"},{"Source":"Metacritic","Value":"48/100"}],"Metascore":"48","imdbRating":"6.2","imdbVotes":"200,944","imdbID":"tt0489270","Type":"movie","DVD":"20 Dec 2015","BoxOffice":"$80,238,724","Production":"N/A","Website":"N/A","Response":"True"}
 GET DONE
@@ -96,5 +96,5 @@ GET Response Code :: 200
 GET DONE
 ]]></system-out>
   </testcase>
-  <testcase name="testgetIndexResponse" classname="edu.escuelaing.app.AppTest" time="0.005"/>
+  <testcase name="testgetIndexResponse" classname="edu.escuelaing.app.AppTest" time="0.01"/>
 </testsuite>
