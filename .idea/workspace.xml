@@ -6,11 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="14916ab3-ae89-465a-ab5c-97412c58e25d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/escuelaing/app/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/escuelaing/app/HttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/escuelaing/app/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/escuelaing/app/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/edu/escuelaing/app/HttpClientConcurrentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/escuelaing/app/HttpClientConcurrentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Taller1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Taller1-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/escuelaing/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/escuelaing/app/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/edu/escuelaing/app/HttpClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/escuelaing/app/HttpClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.escuelaing.app.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.escuelaing.app.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.escuelaing.app.HttpClientConcurrentTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.escuelaing.app.HttpClientConcurrentTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.escuelaing.app.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.escuelaing.app.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.escuelaing.app.HttpClientConcurrentTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.escuelaing.app.HttpClientConcurrentTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/escuelaing/app/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/escuelaing/app/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/edu/escuelaing/app/HttpClientConcurrentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/escuelaing/app/HttpClientConcurrentTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

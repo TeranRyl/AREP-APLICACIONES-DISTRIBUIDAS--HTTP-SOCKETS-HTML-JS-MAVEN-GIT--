@@ -14,6 +14,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
  APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
  Debe construir una aplicación para consultar la información de películas de cine.
+
+ https://github.com/TeranRyl/ARQUITECTURAS-EMPRESARIALES-TALLER-1
  */
 
 // TALLER 1

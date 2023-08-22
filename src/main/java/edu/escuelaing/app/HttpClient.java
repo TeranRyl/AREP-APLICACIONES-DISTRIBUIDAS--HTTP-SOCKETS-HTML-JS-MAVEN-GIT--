@@ -7,6 +7,19 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
+/** ESCUELA COLOMBIANA DE INGENIERIA - ARQUITECTURAS EMPRESARIALES
+
+ Juan Francisco Teran Roman
+ 21/08/2023
+
+ APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
+ Debe construir una aplicación para consultar la información de películas de cine.
+
+ https://github.com/TeranRyl/ARQUITECTURAS-EMPRESARIALES-TALLER-1
+ */
+
+// TALLER 1
+
 public class HttpClient {
 
     /**
