@@ -99,7 +99,7 @@ Concurrent Test: true
 
 Una forma adicional de ejecutar el programa, permitiendo realizar busquedas manuales desde el cliente Java (sin necesidad de un explorador web), es, desde un IDLE de Java, ejecutar la clase App (servidor) seguida de la clase HttpClient (cliente). Una vez hecho esto, podremos ver informacion de peliculas desde la pantalla de resultado de el cliente Http, y podremos peliculas tal y como si fuese desde el browser (omitiendo la agradable interfaz). Al igual que desde el browser, podemos apagar el Sever introduciendo " _" en el campo de busqueda y luego enviando la solicitud.
 
-## Built With
+## Construido con
 
 * [Java](https://www.oracle.com/co/java/) - Backend
 * [Maven](https://maven.apache.org/) - Gestion de ciclo de vida y dependencias
