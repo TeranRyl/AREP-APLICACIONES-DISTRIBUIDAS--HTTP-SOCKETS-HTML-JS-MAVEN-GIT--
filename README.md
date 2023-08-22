@@ -65,27 +65,39 @@ Una vez haya terminado, puede cerrar el servicio introduciendo en el campo de te
 
 ## Ejecucion de las pruebas
 
-La aplicacion cuenta con pruebas automaiza
+La aplicacion cuenta con pruebas automatizadas, tanto unitarias como concurrentes. Para demostrar las pruebas de concurrencia, es necesario que el servidor web este en pleno funcionamiento mientras se corren las pruebas. Para ello, tendremos que abrir 2 Shells al mismo tiempo: en uno ejecutaremos primero "java -cp target/Taller1-1.0-SNAPSHOT.jar edu.escuelaing.app.App", una vez aparezca en pantalla el mensaje "Listo para recibir...", en el otro pondremos el comando "mvn test".
 
-### Break down into end to end tests
+NOTA: Para abortar el shell con el servidor encendido, podemos presionar "CTRL" + "C".
 
-Explain what these tests test and why
+### Pruebas unitarias
+
+Se hicieron 5 pruebas unitarias a 3 metodos.
+
+Primero estan las pruebas del metodo "getTitle" de la clase "App".
+Estas pruebas verifican que el método devuelve el resultado correcto al obtener la información de una película en formato JSON.
+Por ejemplo, para la pelicula "Hola" podemos obtener la informacion completa de ella, en formato JSON, gracias al API y la direccion web "https://www.omdbapi.com/?t=Hola&apikey=2017f520", por tanto es importante rectificar que "app.getTitle("Hola")" sea equivalente, pues es importante que los mensajes que devuelva el servidor sean completos y esten en el formato correcto.
+```
+{\"Title\":\"Hola\",\"Year\":\"2005\",\"Rated\":\"N/A\",\"Released\":\"01 Mar 2005\",\"Runtime\":\"61 min\",\"Genre\":\"N/A\",\"Director\":\"Ana Ynsaurralde\",\"Writer\":\"Ana Ynsaurralde\",\"Actors\":\"Raquel Adoler, Julieta Buschiazzo, Gabriel Coba\",\"Plot\":\"N/A\",\"Language\":\"Spanish\",\"Country\":\"Argentina\",\"Awards\":\"N/A\",\"Poster\":\"N/A\",\"Ratings\":[{\"Source\":\"Internet Movie Database\",\"Value\":\"5.2/10\"}],\"Metascore\":\"N/A\",\"imdbRating\":\"5.2\",\"imdbVotes\":\"5\",\"imdbID\":\"tt0451761\",\"Type\":\"movie\",\"DVD\":\"N/A\",\"BoxOffice\":\"N/A\",\"Production\":\"N/A\",\"Website\":\"N/A\",\"Response\":\"True\"}
+```
+Para los otros 2 metodos, es conveniente revisar la documentacion respectiva pues en ella se explican sus funcionamientos y propositos.
+
+### Y pruebas de concurrencia
+
+En estas pruebas automatizadas, se envian 20 solicitudes al servidor desde un cliente Java. Importante estas pruebas para verificar el correcto manejo de las consultas por parte del servidor web.
+Lo que se hizo fue comprobar si cada una de las respuestas de las solicitudes era correcta, de acuerdo a los valores previamente definidos y guardados, en una estructura de datos sencilla, para comparar con la respuesta que obtenia el servidor.
 
 ```
-Give an example
+Title: Halloween II
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"Title":"Halloween II","Year":"1981","Rated":"R","Released":"30 Oct 1981","Runtime":"92 min","Genre":"Horror","Director":"Rick Rosenthal","Writer":"John Carpenter, Debra Hill","Actors":"Jamie Lee Curtis, Donald Pleasence, Charles Cyphers","Plot":"While Dr. Loomis hunts for Michael Myers, a traumatized Laurie is rushed to Haddonfield Memorial Hospital, and The Shape is not far behind her.","Language":"English","Country":"United States","Awards":"1 win & 3 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMjZmYjg0ODctOTIyYy00YzhkLTgyMzEtNjUyY2JiZjVmYzI2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"6.5/10"},{"Source":"Rotten Tomatoes","Value":"33%"},{"Source":"Metacritic","Value":"40/100"}],"Metascore":"40","imdbRating":"6.5","imdbVotes":"96,871","imdbID":"tt0082495","Type":"movie","DVD":"19 Oct 2015","BoxOffice":"$25,533,818","Production":"N/A","Website":"N/A","Response":"True"}
+Concurrent Test: true
 ```
 
-### And coding style tests
+## Implementacion
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Una forma adicional de ejecutar el programa, permitiendo realizar busquedas manuales desde el cliente Java (sin necesidad de un explorador web), es descomentando la linea 82 de la clase "HttpClientConcurrentTest", luego iniciamos nuestro servidor "App" y finalizamos ejecutando la clase cliente. Una vez hecho esto, podremos ver informacion de peliculas
 
 ## Built With
 
