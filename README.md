@@ -109,17 +109,15 @@ Una forma adicional de ejecutar el programa, permitiendo realizar busquedas manu
 
 ## Autores
 
-* **Juan Francisco Teran** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Juan Francisco Teran** - *Trabajo total* - [TeranRyl](https://github.com/TeranRyl)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
+## Licencia
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Este proyecto tiene la licencia GNU General Public License v3.0; consulte el archivo [LICENSE.txt](LICENSE.txt) para obtener más información.
 
-## Acknowledgments
+## Reconocimientos
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Santiago Rocha - Aclaracion de dudas
 
