@@ -69,7 +69,7 @@ La aplicacion cuenta con pruebas automatizadas, tanto unitarias como concurrente
 
 NOTA: Para abortar el shell con el servidor encendido, podemos presionar "CTRL" + "C".
 
-### Pruebas unitarias
+### Pruebas unitarias (TDD)
 
 Se hicieron 5 pruebas unitarias a 3 metodos.
 
