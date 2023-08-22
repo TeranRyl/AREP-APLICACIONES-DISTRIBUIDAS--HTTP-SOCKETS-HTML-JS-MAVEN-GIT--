@@ -101,9 +101,15 @@ Una forma adicional de ejecutar el programa, permitiendo realizar busquedas manu
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Java](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [omdbapi](https://www.omdbapi.com) - API externo
+* [HTTP](https://www.omdbapi.com) - API externo
+* [SOCKETS](https://www.omdbapi.com) - API externo
+* [HTML](https://www.omdbapi.com) - API externo
+* [JavaScript](https://www.omdbapi.com) - API externo
+* [Git/Github](https://www.omdbapi.com) - API externo
+* [JSON](https://www.omdbapi.com) - API externo
 
 ## Contributing
 
