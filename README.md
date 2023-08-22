@@ -101,27 +101,15 @@ Una forma adicional de ejecutar el programa, permitiendo realizar busquedas manu
 
 ## Built With
 
-* [Java](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [omdbapi](https://www.omdbapi.com) - API externo
-* [HTTP](https://www.omdbapi.com) - API externo
-* [SOCKETS](https://www.omdbapi.com) - API externo
-* [HTML](https://www.omdbapi.com) - API externo
-* [JavaScript](https://www.omdbapi.com) - API externo
-* [Git/Github](https://www.omdbapi.com) - API externo
-* [JSON](https://www.omdbapi.com) - API externo
+* [Java](https://www.oracle.com/co/java/) - Backend
+* [Maven](https://maven.apache.org/) - Gestion de ciclo de vida y dependencias
+* [omdbapi](https://www.omdbapi.com) - API externo de peliculas
+* [Git/Github](https://git-scm.com/) - Almacenar el codigo fuente
+* [JSON](https://www.json.org/json-es.html) - Formato para los mensajes de intercambio
 
-## Contributing
+## Autores
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Juan Francisco Teran** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
